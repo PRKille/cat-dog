@@ -1,0 +1,4 @@
+.dark-mode {
+  background-image: radial-gradient(black, #333);
+  color: whitesmoke;
+}

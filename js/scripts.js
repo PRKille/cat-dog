@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#dark").click(function(){
+    $("body").addClass("dark-mode");
+    $(".jumbotron").addClass("dark-mode");
+  });
+  $('#light').click(function(){
+    $('.jumbotron').removeClass("dark-mode");
+    $("body").removeClass();
+  });
+});

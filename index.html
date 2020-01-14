@@ -1,36 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cats and Dogs May Get Along</title>
-  </head>
-  <body>
-    <h1>Cat Stuff:</h1>
-    <h2>Things my cat <em>ignores:</em></h2>
-    <ul>
-      <li>Most things</li>
-    </ul>
 
-    <h2>Things she doesn't like:</h2>
-    <ol>
-      <li>Having her tail sniffed</li>
-      <li>Not being allowed to eat the dogs food</li>
-    </ol>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <h1>Dog Things:</h1>
-    <h2>Stuff to sniff:</h2>
-    <ul>
-      <li>Everything</li>
-    </ul>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <title>Cats and Dogs May Get Along</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button id="dark" class="btn btn-default">Dark Mode</button>
+              <button id="light" class="btn btn-defalut">Come into the light</button>
+          </div>
+        </div>
+      </nav>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Cat Stuff:</h1>
+        </div>
+  
+        <div class="col-md-6">
+            <img src="img/cool-cat.jpg" alt="A photo of a cat">
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 1  -->
+    <div class="row">
+      <div class="col-md-6">
+
+        <h2>Things my cat <em>ignores:</em></h2>
+
+        <ul>
+          <li>Most things</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+
+        <h2>Things she doesn't like:</h2>
+        <ol>
+          <li>Having her tail sniffed</li>
+          <li>Not being allowed to eat the dogs food</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-6">
+              <h1 class="">Dog Things:</h1>
+          </div>
+          <div class="col-md-6"><img src="img/cool-dog.jpg" alt="A photo of a Dog"></div>
+
+        </div>
+      </div>
       
-    <h2>What to be scared of:</h2>
-    <ol>
-      <li>
-        <a href="https://www.example.com/carrides.html">
-          Car Rides
-          <img src="img/car.jpeg" alt="Dog hanging out of car window.">
-        </a>
-      </li>
-      <li><strong>Angry</strong> Mom</li>
-    </ol>
-  </body>
+      <div class="col-md-6">
+        <h2>Stuff to sniff:</h2>
+        <ul>
+          <li>Everything</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+
+        <h2>What to be scared of:</h2>
+        <ol>
+          <li>
+            <a href="https://www.example.com/carrides.html">
+              Car Rides
+              <img src="img/dog-car-window.png" alt="Dog hanging out of car window.">
+            </a>
+          </li>
+          <li><strong>Angry</strong> Mom</li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
 </html>
